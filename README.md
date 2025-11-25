@@ -18,7 +18,7 @@ It addresses major issues of the existing PoliTO Map and provides a smart routin
 ##  Team Members
 
 | Name | Role |
-|-------|-----------|
+|------|------|
 | Yun Zhang | UI Designer |
 | Meiqi Zhang | Developer |
 | Isabella Bianco | Developer |
@@ -29,7 +29,7 @@ It addresses major issues of the existing PoliTO Map and provides a smart routin
 ##  Tech Stack
 
 | Category | Tools |
-|-----------|--------|
+|----------|-------|
 | Frontend | React, Mobile UI design |
 | GIS & Mapping | QGIS, Leaflet, pgRouting |
 | Data & Graph | PostgreSQL, routing graph repair |
