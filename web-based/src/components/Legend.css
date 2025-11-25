@@ -1,0 +1,49 @@
+.legend-container {
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 1px solid #ddd;
+    padding: 10px 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    max-width: 100%; /* elimina limite di 220px */
+    font-size: 0.9rem;
+    margin: 10px auto;
+  }
+  
+  .legend-title {
+    margin-bottom: 8px;
+    font-weight: 600;
+    text-align: center;
+    color: #333;
+  }
+  
+  .legend-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap; /* manda a capo se serve */
+    align-items: center;
+    justify-content: center; /* centra tutto */
+    gap: 10px; /* spazio tra gli elementi */
+  }
+  
+  .legend-item {
+    display: flex;
+    align-items: center;
+    margin: 0; /* niente margine sotto */
+  }
+  
+  .legend-color {
+    width: 14px;
+    height: 14px;
+    border-radius: 3px;
+    border: 1px solid #000;
+    display: inline-block;
+    margin-right: 6px;
+  }
+  
+  .legend-label {
+    color: #444;
+    white-space: nowrap; /* evita che le etichette vadano a capo */
+  }
+  

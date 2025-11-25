@@ -1,0 +1,83 @@
+/* DirectionsPanel.css */
+.directions-panel {
+    position: fixed;
+    top: 8%; /* centrato solo orizzontalmente, spostato in alto */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 380px; /* aumentata la larghezza */
+    background-color: #ffffff;
+    border-radius: 0.75rem;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    z-index: 1000;
+}
+
+.directions-panel h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.directions-panel .fields {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem; /* spazio costante tra i campi */
+    margin-bottom: 1.5rem;
+}
+
+.directions-panel .field {
+    display: flex;
+    flex-direction: column;
+}
+
+.directions-panel label {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+}
+
+.directions-panel input.readonly-input,
+.directions-panel .search-bar {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    background-color: #f9fafb;
+    font-size: 1rem;
+}
+
+.directions-panel .buttons {
+    display: flex;
+    justify-content: space-between;
+    gap: 0.75rem;
+    margin-top: 1.5rem; 
+}
+
+.directions-panel .btn {
+    flex: 1; /* ⬅️ I bottoni ora crescono uguali */
+    padding: 0.75rem 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+}
+
+.directions-panel .btn-primary {
+    background-color: #3b82f6;
+    color: #ffffff;
+}
+
+.directions-panel .btn-secondary {
+    background-color: #ef4444;
+    color: #ffffff;
+}
+
+.directions-panel .btn:disabled {
+    background-color: #9ca3af;
+    cursor: not-allowed;
+}
